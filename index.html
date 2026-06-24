@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicolás Martínez Riego — Portfolio de Aprendizajes</title>
+  <meta name="description" content="Portfolio de aprendizajes de Nicolás Martínez Riego, estudiante de LEINN en Mondragon Unibertsitatea. Liderazgo, emprendimiento e innovación.">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===================== NAVEGACIÓN ===================== -->
+  <header class="nav" id="top">
+    <a href="#top" class="nav__brand">NMR</a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#viajes">Viajes</a></li>
+        <li><a href="#futuro">Futuro</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <div class="hero__text reveal">
+          <p class="hero__eyebrow">Nicolás Martínez Riego</p>
+          <h1 class="hero__title">Portfolio<br>de<br>Aprendizajes</h1>
+          <p class="hero__sub">Estudiante de LEINN — Liderazgo, Emprendimiento e Innovación · Mondragon Unibertsitatea</p>
+          <a href="#sobre-mi" class="hero__cta">Empezar &darr;</a>
+        </div>
+        <div class="hero__media reveal">
+          <div class="media media--portrait">
+            <img src="assets/hero.jpg" alt="Retrato de Nicolás Martínez Riego" loading="lazy"
+                 onerror="this.parentElement.classList.add('no-img')">
+            <span class="media__placeholder">hero.jpg</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE MÍ ===================== -->
+    <section class="section section--cream" id="sobre-mi">
+      <div class="container">
+        <p class="section__kicker reveal">01 — Quién soy</p>
+        <h2 class="section__title reveal">¿Quién soy?</h2>
+
+        <div class="about">
+          <div class="about__text reveal">
+            <p>Soy una persona con un gran impulso para conseguir los objetivos que me propongo, y doy mucha importancia al aprendizaje, al cambio y al riesgo que conlleva llevarlos a cabo.</p>
+            <p>Estudiante de <strong>LEINN</strong> (Liderazgo, Emprendimiento e Innovación). El año pasado me especialicé en la primera parte de la carrera: toma de decisiones, desarrollo de visión y estrategia, y gestión de equipos dentro del liderazgo. Este último año me he centrado en la innovación, tanto desde el marco teórico como el práctico, para aplicar todo ese conocimiento en el emprendimiento y crear proyectos ambiciosos y profesionales.</p>
+            <p>Hoy la inteligencia artificial se ha convertido en una de mis herramientas centrales. Con <strong>Claude Code</strong> soy capaz de construir soluciones reales, automatizar procesos y plantear retos que hace poco habrían necesitado un equipo entero.</p>
+          </div>
+          <ul class="keywords reveal" aria-label="Palabras clave">
+            <li>Liderazgo</li>
+            <li>Emprendimiento</li>
+            <li>Innovación</li>
+            <li>Cambio</li>
+            <li>Riesgo</li>
+            <li>Objetivos</li>
+            <li>Aprendizaje</li>
+            <li>Ambición</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HABILIDADES ===================== -->
+    <section class="section section--navy" id="habilidades">
+      <div class="container">
+        <p class="section__kicker reveal">02 — Lo que sé hacer</p>
+        <h2 class="section__title reveal">Habilidades</h2>
+
+        <div class="skills">
+          <article class="skill reveal">
+            <span class="skill__num">01</span>
+            <h3>Toma de decisiones estratégicas</h3>
+            <p>Me especializo en tomar decisiones claras y diseñar estrategias efectivas para llevar los proyectos al éxito.</p>
+          </article>
+          <article class="skill reveal">
+            <span class="skill__num">02</span>
+            <h3>Aprender y adaptarme rápido</h3>
+            <p>Trabajo en proyectos muy variados que me han enseñado a aprender deprisa y adaptarme a contextos distintos.</p>
+          </article>
+          <article class="skill reveal">
+            <span class="skill__num">03</span>
+            <h3>Liderazgo y gestión de equipos</h3>
+            <p>He liderado un equipo de 16 personas, aprendiendo a motivar, comunicar y coordinar para alcanzar objetivos comunes.</p>
+          </article>
+          <article class="skill reveal">
+            <span class="skill__num">04</span>
+            <h3>Innovación aplicada</h3>
+            <p>Combino la investigación teórica de la innovación con métodos prácticos y creativos para crear nuevos conceptos en mis proyectos.</p>
+          </article>
+          <article class="skill reveal">
+            <span class="skill__num">05</span>
+            <h3>Organización digital, legal y financiera</h3>
+            <p>Dentro de NITTON soy una de las personas que se encarga de que todo funcione por dentro: organización digital, gestión legal y control financiero de los distintos equipos.</p>
+          </article>
+          <article class="skill reveal">
+            <span class="skill__num">06</span>
+            <h3>Análisis de datos con Power BI</h3>
+            <p>Construyo cuadros de mando y análisis con Power BI para convertir datos dispersos en decisiones.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROYECTOS (INTRO) ===================== -->
+    <section class="section section--cream section--quote" id="proyectos">
+      <div class="container">
+        <p class="section__kicker reveal">03 — Proyectos</p>
+        <blockquote class="quote reveal">
+          <p>"El aprendizaje viene de la acción, la medición y la repetición en proyectos. Es lo que nos conecta con el mundo real y nos hace aplicar la teoría aprendida."</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ===================== THE PICKLE CENTER ===================== -->
+    <section class="section section--cream project" id="pickle-center">
+      <div class="container">
+        <div class="project__grid">
+          <div class="project__body reveal">
+            <span class="badge">Fundador y gestor del proyecto</span>
+            <h2 class="project__title">The Pickle<br>Center</h2>
+            <p>The Pickle Center es nuestro proyecto para impulsar el pickleball en Euskadi. Funciona como e-commerce y consultora especializada: vendemos palas y material, asesoramos a clientes y hemos entrado en el marketplace de Decathlon para distribuir marcas internacionales como Wefoot.</p>
+            <p>Dentro de The Pickle Center está <strong>The Pickle Studio</strong> (antes Ingo), el motor que da vida a espacios, experiencias y oportunidades para la expansión del deporte: eventos, comunidad y colaboraciones con federaciones e instituciones.</p>
+          </div>
+          <div class="project__media reveal">
+            <div class="media">
+              <img src="assets/pickle-logo.png" alt="Logo de The Pickle Center" loading="lazy"
+                   onerror="this.parentElement.classList.add('no-img')">
+              <span class="media__placeholder">pickle-logo.png</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="logos reveal">
+          <p class="logos__label">Colaboradores</p>
+          <div class="logos__row">
+            <div class="logo"><img src="assets/logos/parke.png" alt="Parke" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span>Parke</span></div>
+            <div class="logo"><img src="assets/logos/fvte.png" alt="Federación Vasca de Tenis" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span>F. Vasca de Tenis</span></div>
+            <div class="logo"><img src="assets/logos/rfet.png" alt="Real Federación Española de Tenis" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span>RFET</span></div>
+            <div class="logo"><img src="assets/logos/zcebra.png" alt="Zcebra Wild Pickleball" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span>Zcebra</span></div>
+            <div class="logo"><img src="assets/logos/mondragon.png" alt="Mondragon Unibertsitatea" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span>Mondragon Unibertsitatea</span></div>
+            <div class="logo"><img src="assets/logos/dupr.png" alt="DUPR" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span>DUPR</span></div>
+            <div class="logo"><img src="assets/logos/vitoria-gasteiz.png" alt="Ayuntamiento de Vitoria-Gasteiz" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span>Vitoria-Gasteiz</span></div>
+            <div class="logo"><img src="assets/logos/pickleball-fed.png" alt="Federación de pickleball" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span>Fed. de pickleball</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GOXXO ===================== -->
+    <section class="section section--navy project" id="goxxo">
+      <div class="container">
+        <div class="project__grid project__grid--reverse">
+          <div class="project__body reveal">
+            <span class="badge">Creador y gestor de operaciones</span>
+            <h2 class="project__title">Goxxo</h2>
+            <p>Goxxo es un producto de fresas con chocolate y toppings que lanzamos en las navidades de 2025-2026. Con él aprendimos a montar un negocio de hostelería dentro de un producto preparado para el mainstream: producción, logística de un perecedero, punto de venta y experiencia de cliente en plena campaña navideña.</p>
+          </div>
+          <div class="project__media reveal">
+            <div class="media">
+              <img src="assets/goxxo.jpg" alt="Producto Goxxo: fresas con chocolate y toppings" loading="lazy"
+                   onerror="this.parentElement.classList.add('no-img')">
+              <span class="media__placeholder">goxxo.jpg</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== KONSULTEK ===================== -->
+    <section class="section section--cream project" id="konsultek">
+      <div class="container">
+        <div class="project__grid">
+          <div class="project__body reveal">
+            <span class="badge">Co-fundador y analista de datos</span>
+            <h2 class="project__title">Konsultek</h2>
+            <p>Konsultek es una consultora de datos especializada en Power BI para pymes. Ayudamos a las empresas a ordenar su información y transformarla en cuadros de mando claros para tomar mejores decisiones. Desarrollamos el CRM, las propuestas comerciales y la captación de clientes.</p>
+            <p>Dentro de esta línea hemos trabajado en <strong>Marketberri</strong>, un proyecto centrado en la eficiencia operativa del pequeño comercio de barrio en Euskadi.</p>
+          </div>
+          <div class="project__media reveal">
+            <div class="media media--data">
+              <span class="media__placeholder media__placeholder--soft">Power BI · Cuadros de mando</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LOCKFEST ===================== -->
+    <section class="section section--cream project project--accent" id="lockfest">
+      <div class="container">
+        <div class="project__body project__body--center reveal">
+          <span class="badge badge--red">Diseñador 3D</span>
+          <h2 class="project__title">Lockfest</h2>
+          <p>Lockfest es un proyecto centrado en el desarrollo de una tapa para vasos de cubata, que busca prevenir la sumisión química al impedir la introducción de sustancias no deseadas en las bebidas. Lo desarrollé junto a mi equipo con la idea de implementarlo en los Puntos Violeta, para aumentar la seguridad y la protección en entornos sociales vulnerables.</p>
+        </div>
+        <div class="gallery reveal">
+          <div class="media"><img src="assets/lockfest-1.jpg" alt="Render del producto Lockfest 1" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span class="media__placeholder">lockfest-1.jpg</span></div>
+          <div class="media"><img src="assets/lockfest-2.jpg" alt="Render del producto Lockfest 2" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span class="media__placeholder">lockfest-2.jpg</span></div>
+          <div class="media"><img src="assets/lockfest-3.jpg" alt="Render del producto Lockfest 3" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span class="media__placeholder">lockfest-3.jpg</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEELKEY ===================== -->
+    <section class="section section--cream project" id="feelkey">
+      <div class="container">
+        <div class="project__body project__body--center reveal">
+          <span class="badge">Diseñador 3D</span>
+          <h2 class="project__title">Feelkey</h2>
+          <p>Feelkey nace de la necesidad de las personas invidentes de teclear en ordenadores portátiles. La solución es una funda de plástico termoconformado con la forma del teclado, cuyo relieve incorpora las letras en Braille para facilitar su uso. Está orientada sobre todo al aprendizaje del uso de ordenadores para personas jóvenes o mayores.</p>
+        </div>
+
+        <ul class="ods reveal" aria-label="Objetivos de Desarrollo Sostenible relacionados">
+          <li><span class="ods__num">4</span> Educación de calidad</li>
+          <li><span class="ods__num">9</span> Industria, innovación e infraestructura</li>
+          <li><span class="ods__num">10</span> Reducción de las desigualdades</li>
+          <li><span class="ods__num">11</span> Ciudades y comunidades sostenibles</li>
+        </ul>
+
+        <div class="gallery reveal">
+          <div class="media"><img src="assets/feelkey-molde-macho.jpg" alt="Feelkey: molde macho" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span class="media__placeholder">feelkey-molde-macho.jpg</span></div>
+          <div class="media"><img src="assets/feelkey-molde-hembra.jpg" alt="Feelkey: molde hembra" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span class="media__placeholder">feelkey-molde-hembra.jpg</span></div>
+          <div class="media"><img src="assets/feelkey-prototipo.jpg" alt="Feelkey: prototipo" loading="lazy" onerror="this.parentElement.classList.add('no-img')"><span class="media__placeholder">feelkey-prototipo.jpg</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== KRITO ===================== -->
+    <section class="section section--dark project project--krito" id="krito">
+      <div class="container">
+        <div class="project__body project__body--center reveal">
+          <span class="badge badge--ghost">Creador y líder del proyecto</span>
+          <h2 class="project__title">Krito</h2>
+          <p>Krito es una experiencia multijugador en la vida real, inspirada en los escape rooms pero ambientada en lugares recónditos llenos de misterios y experiencias inesperadas, con gran producción y realismo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NITTON ===================== -->
+    <section class="section section--navy" id="nitton">
+      <div class="container">
+        <p class="section__kicker reveal">04 — Rol transversal</p>
+        <h2 class="section__title reveal">Mi rol en NITTON</h2>
+        <div class="about">
+          <div class="about__text about__text--full reveal">
+            <p>Más allá de mis propios proyectos, dentro de NITTON soy una de las personas que sostiene la estructura interna del equipo. Me encargo de que todo funcione por dentro: la organización digital, la parte legal y el control financiero de los distintos proyectos. Trabajo como una pieza más que vela por que todo vaya bien, y apoyo la toma de decisiones con análisis y cuadros de mando construidos en Power BI.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== VIAJES ===================== -->
+    <section class="section section--cream" id="viajes">
+      <div class="container">
+        <p class="section__kicker reveal">05 — Learning Journeys</p>
+        <h2 class="section__title reveal">Viajes</h2>
+        <div class="journeys">
+          <div class="journey reveal">
+            <span class="journey__place">India</span>
+          </div>
+          <div class="journey reveal">
+            <span class="journey__place">Corea del Sur</span>
+          </div>
+          <div class="about__text reveal">
+            <p>Durante la carrera he realizado Learning Journeys internacionales a <strong>India</strong> y <strong>Corea del Sur</strong>. Estos viajes no han sido solo formativos: nos han permitido crear relaciones reales con proveedores en India y traer nuevos productos deportivos a través de nuestra entrada en Decathlon, con marcas como Wefoot. Hoy seguimos explorando nuevas posibilidades a partir de esos contactos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FUTURO ===================== -->
+    <section class="section section--navy" id="futuro">
+      <div class="container">
+        <p class="section__kicker reveal">06 — Lo que viene</p>
+        <h2 class="section__title reveal">¿Y el futuro?</h2>
+        <div class="about">
+          <div class="about__text about__text--full reveal">
+            <p>En el futuro quiero seguir formándome como gestor de equipos, profundizando en estrategias cada vez más avanzadas y liderando proyectos más ambiciosos. En especial, quiero seguir impulsando <strong>The Pickle Center</strong> y <strong>The Pickle Studio</strong>, un proyecto en el que todo el equipo ha puesto un enorme esfuerzo y en el que confío plenamente.</p>
+            <p>Además, quiero especializarme en áreas clave como las ventas, la construcción de marca y la creación de comunidades, fundamentales para generar impacto real y sostenible.</p>
+            <p>El siguiente reto que me ilusiona es llevar la inteligencia artificial al mundo físico y no solo al digital: IoT, sistemas capaces de detectar y ayudar a personas en situaciones de urgencia, y soluciones que conecten el software con el entorno real.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section class="section section--dark contact" id="contacto">
+      <div class="container">
+        <p class="section__kicker reveal">07 — Hablemos</p>
+        <div class="contact__info reveal">
+          <a href="mailto:nicolas.martinezi@alumni.mondragon.edu" class="contact__link">nicolas.martinezi@alumni.mondragon.edu</a>
+          <a href="tel:+34688829321" class="contact__link">+34 688 829 321</a>
+        </div>
+        <h2 class="contact__thanks reveal">¡Muchas<br>gracias!</h2>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nicolás Martínez Riego · Portfolio de Aprendizajes</p>
+    <a href="#top" class="footer__top">Volver arriba ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

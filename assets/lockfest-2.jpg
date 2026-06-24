@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#ECE5D4"/>
+  <rect x="1" y="1" width="798" height="598" fill="none" stroke="#C9BFA6" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="50%" y="48%" font-family="Poppins, Arial, sans-serif" font-size="28" fill="#5A5A5A" text-anchor="middle">PLACEHOLDER</text>
+  <text x="50%" y="56%" font-family="Poppins, Arial, sans-serif" font-size="22" fill="#13294B" text-anchor="middle">lockfest-2.jpg</text>
+</svg>
