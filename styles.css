@@ -255,6 +255,14 @@ strong { font-weight: 600; }
 }
 .media--portrait { aspect-ratio: 3 / 4; border: 1px solid rgba(251,246,234,.18); }
 .media--data { aspect-ratio: 4 / 3; display: grid; place-items: center; }
+.media--logo {
+  aspect-ratio: 16 / 9;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+.media--logo img { position: static; width: 100%; height: auto; object-fit: contain; }
 
 .media__placeholder {
   position: absolute;

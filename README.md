@@ -44,12 +44,12 @@ manteniendo el mismo nombre**:
 | Archivo | Uso |
 |---|---|
 | `assets/hero.jpg` | Foto de portada |
-| `assets/goxxo.jpg` | Producto Goxxo |
-| `assets/lockfest-1.jpg` … `lockfest-3.jpg` | Renders de Lockfest |
-| `assets/feelkey-molde-macho.jpg` | Feelkey: molde macho |
-| `assets/feelkey-molde-hembra.jpg` | Feelkey: molde hembra |
-| `assets/feelkey-prototipo.jpg` | Feelkey: prototipo |
-| `assets/pickle-logo.png` | Logo The Pickle Center / Studio |
+| `assets/goxxo.png` | Producto Goxxo |
+| `assets/lockfest-1.png` … `lockfest-3.png` | Renders de Lockfest |
+| `assets/feelkey-molde-macho.png` | Feelkey: molde macho |
+| `assets/feelkey-molde-hembra.png` | Feelkey: molde hembra |
+| `assets/feelkey-prototipo.png` | Feelkey: prototipo |
+| `assets/pickle-logo.png` | Logo The Pickle Center (negro) |
 | `assets/logos/parke.png` | Logo Parke |
 | `assets/logos/fvte.png` | Federación Vasca de Tenis |
 | `assets/logos/rfet.png` | Real Federación Española de Tenis |
