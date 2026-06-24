@@ -263,6 +263,15 @@ strong { font-weight: 600; }
   padding: clamp(1.5rem, 4vw, 3rem);
 }
 .media--logo img { position: static; width: 100%; height: auto; object-fit: contain; }
+/* Producto sobre tarjeta blanca: se ve entero, sin recortes */
+.media--product {
+  aspect-ratio: 4 / 3;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  padding: clamp(1rem, 3vw, 2rem);
+}
+.media--product img { position: static; width: auto; height: 100%; max-width: 100%; object-fit: contain; }
 
 .media__placeholder {
   position: absolute;
@@ -381,6 +390,17 @@ strong { font-weight: 600; }
   letter-spacing: .01em;
   margin: 1rem 0 1.4rem;
 }
+/* Título sustituido por el logotipo real (wordmark sobre tarjeta blanca) */
+.project__title--logo {
+  display: inline-block;
+  background: #fff;
+  border-radius: 14px;
+  padding: 1rem 1.6rem;
+  line-height: 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,.18);
+}
+.project__title--logo img { width: min(320px, 70vw); height: auto; }
+
 .project__body p { margin-bottom: 1rem; max-width: 56ch; font-size: clamp(1rem, 1.4vw, 1.1rem); }
 .project__body p:last-child { margin-bottom: 0; }
 .project__body--center { max-width: 70ch; margin: 0 auto; text-align: center; }
